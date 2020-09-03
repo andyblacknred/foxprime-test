@@ -37,7 +37,9 @@ module.exports = {
   },
   buildModules: [
     '@nuxtjs/vuetify'
+  ],
+  modules: [
+    '@nuxtjs/axios'
   ]
-
 }
 
