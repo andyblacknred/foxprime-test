@@ -19,6 +19,7 @@
           class="button--grey">GitHub</a>
       </div>
     </div>
+    <input type="text">
   </section>
 </template>
 
@@ -28,6 +29,11 @@ import AppLogo from '~/components/AppLogo.vue'
 export default {
   components: {
     AppLogo
+  },
+  data: function () {
+    return {
+      apiKey: 'd10dc92eb40b53618efda6c3206ec22d'
+    }
   }
 }
 </script>
