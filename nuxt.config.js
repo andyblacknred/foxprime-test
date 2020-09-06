@@ -40,6 +40,9 @@ module.exports = {
   ],
   modules: [
     '@nuxtjs/axios'
-  ]
+  ],
+  publicPath: process.env.NODE_ENV === 'production'
+    ? 'https://andyblacknred.github.io/foxprime-test'
+    : '/'
 }
 
